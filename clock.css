@@ -1,0 +1,26 @@
+body {
+    color: white;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 100vh;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+@media screen and (max-width: 600px) {
+    div.mainContainer {
+        font-size: 1.5rem;
+    }
+}
+h1#timeVariable {
+    border: 2px solid white;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    backdrop-filter: blur(5px);
+}
